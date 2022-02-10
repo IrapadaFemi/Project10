@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Login page </title>
+<style>
+body {
+		background-color: gold;
+	   /* background-size: cover;*/
+}
+	.h1 {
+		 text-align:center; 
+	     margin-top:-130px;
+	 	 color:black; 
+	     font-weight: bold;
+	 }
+	.h3 {
+		
+		font-family: 'Times New Roman', Times, serif;
+		 text-align: right; 
+	     margin-left:50px;
+	     margin-top: -60px;
+	 	 color:black; 
+		  text-align: center;
+	     
+	 }
+
+	 
+	div.gee { padding: 30px;
+			  background-color: thistle;
+			  max-width: 580px;
+			  height: 440px;
+			  margin: auto;}
+
+			  .form {
+				margin-bottom: 90px;
+			  }
+
+			p { text-align: center;
+			  	  text-transform:capitalize
+				  font-family: verdana;
+				  font-variant: small-caps;}
+</style>
+</head>
+
+<body>
+
+	<div>
+		<img  src="./pictures/logo.png" alt="Not Display" style="width:200px;height:200px; margin-left:50px;">
+		<h1 class="h1">
+			THE FEDERAL POLYTECHNIC, ILE-OLUJI<BR> ONDO STATE </h1>
+		</div><br><br><br>
+		 			<!--<P> FEDERAL POLYTECHNIC ILE-OLUJI STUDENT LECTURE TIME TABLE LOGIN PAGE </p>-->
+			
+	<div class="gee">
+		<img  src="./pictures/logo.png" alt="Not Display" style="width:100px;height: 100px; margin-left:10px;">
+		<h3 class="h3">
+			THE FEDERAL POLYTECHNIC, ILE-OLUJI <br/> ONDO STATE </h3>
+			<br	/>
+			<br	/>
+	<!--Login Details -->
+	<div class="form">
+		<form  action="post">
+			<fieldset>
+				<legend>Login Details:</legend>
+			<label><br>Matric Number:</br></label><br>
+				<input type="text" name="mNumber" placeholder="Enter  Matric Number"></br>
+			<label><br>Password:</br></label><br>
+				<input type="password" name="password" placeholder="Enter Password"></br><br>
+				<select name="SCHOOL">
+					<option value="Select School "selected ></option>
+					<option   value="School of Applied Science">School Of Applied Science</option>
+					<option   value="School of Engineering">School Of Engineering</option>
+					<option  value="School of Finance and Business ">School Of Finance and Business</option>
+				</select> 
+<br/><br>
+				<button type="button" onclick="myFunction()">Login</button></br>
+               <script>
+				   document.getElementById("demo")
+			   </script>
+
+			</fieldset>
+		</form>
+	</div>
+	</div>
+	
+</body>
+</html>
